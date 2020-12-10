@@ -1,7 +1,6 @@
 import Vue from 'vue'
 import App from './App'
 import vueRouter from 'vue-router'
-import cors from 'cors'
 
 import router from './router'
 Vue.use(vueRouter)
@@ -15,5 +14,3 @@ new Vue({
     components: { App },
     template: '<App/>'
 })
-
-app.use(cors());
