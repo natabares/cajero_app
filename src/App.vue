@@ -96,6 +96,7 @@ export default {
     margin: 0%;
     padding: 0%;
     background: #FDFEFE ;
+    justify-content: center;
   }
   .footer{
     margin: 0;
